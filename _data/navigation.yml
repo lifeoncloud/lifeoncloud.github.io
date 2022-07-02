@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: https://lifeoncloud.github.io/
+  - title: "About"
+    url: https://lifeoncloud.github.io/about
+  - title: "NCP"
+    url: /ncp/
+  - title: "GCP"
+    url: /gcp/
+  - title: "Study"
+    url: /study/
+  - title: "Drawing"
+    url: /drawing/
