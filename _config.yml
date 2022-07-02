@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "라온클"
   avatar           : "/assets/images/soojin-by-hand-drawing.jpg"
-  bio              : "걷는 사람"
-  location         : "Goyang"
+  bio              : # "걷는 사람"
+  location         : # "Goyang"
   email            :
   links:
     - label: "Email"
@@ -121,10 +121,10 @@ author:
       # url: "https://twitter.com/soojinoncloud"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/soojinleeoncloud"
+      # url: "https://facebook.com/soojinleeoncloud"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/lifeoncloud"
+      # url: "https://github.com/lifeoncloud"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/soojinleeoncloud"
+      # url: "https://facebook.com/soojinleeoncloud"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -287,6 +287,18 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      comments: true
+      share: false
       related: true
+  
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
