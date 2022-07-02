@@ -10,7 +10,5 @@ main:
     url: /k8s/
   - title: "Study"
     url: /study/
-  - title: "Blog"
-    url: /blog/
   - title: "About"
     url: https://lifeoncloud.github.io/about
