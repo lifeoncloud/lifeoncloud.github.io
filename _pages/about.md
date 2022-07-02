@@ -1,10 +1,9 @@
 ---
-layout: page
 title: About
 permalink: /about/
+layout: single
 author_profile: true
 ---
-
 Who am I
 * 라온클
 * 클라우드 관련 인프라를 공부하고 있습니다.
