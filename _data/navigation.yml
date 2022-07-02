@@ -12,3 +12,5 @@ main:
     url: /study/
   - title: "Drawing"
     url: /drawing/
+  - title: "Blog"
+    url: /blog/
