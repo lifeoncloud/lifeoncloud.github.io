@@ -4,10 +4,6 @@ date: "2022-07-02"
 categories: gcp
 tags: [GCP, studyjam, GKE]
 coverImage: "/assets/images/kubernetes-studyjam-2022.png"
-
-toc: true
-toc_sticky: true
- 
 date: 2022-07-04
 last_modified_at: 2022-07-04
 ---
