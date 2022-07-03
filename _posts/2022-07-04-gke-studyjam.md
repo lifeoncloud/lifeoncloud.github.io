@@ -19,9 +19,10 @@ last_modified_at: 2022-07-04
 
 1단계: '시크릿창’에서 아래 URL로 접속하고 로그인하면 실습용 크레딧 1개를 받습니다. 
 
-https://www.cloudskillsboost.google/catalog\_lab/1281?**_{_이후 신청자분들만 받은 캠페인 _URL}_**
+https://www.cloudskillsboost.google/catalog\_lab/1281?**{이후 신청자분들만 받은 캠페인 URL}**
 
-⚠️기존에 스터디잼을 해보신 분들은 아래와 같이 안된다고 나올 수 있습니다. 그럴 땐 진리의 신규계정으로 접속하세요.
+<span style='background-color: #ffdce0'>
+⚠️기존에 스터디잼을 해보신 분들은 아래와 같이 안된다고 나올 수 있습니다. 그럴 땐 진리의 신규 계정으로 접속하세요.</span>
 
 ![](/assets/images/gcp-studyjam-history.png)
 
