@@ -20,26 +20,24 @@ last_modified_at: 2022-07-04
 
 
 1단계: '시크릿창’에서 아래 URL로 접속하고 로그인하면 실습용 크레딧 1개를 받습니다. 
-https://www.cloudskillsboost.google/catalog\_lab/1281?**{이후 신청자분들만 받은 캠페인 URL}**
+https://www.cloudskillsboost.google/catalog\_lab/1281?**{이후 신청자분들만 받은 캠페인 URL}**<br>
 <span style='background-color: #ffdce0'>
-⚠️기존에 스터디잼을 해보신 분들은 아래와 같이 안된다고 나올 수 있습니다. 그럴 땐 진리의 신규 계정으로 접속하세요.</span>
-![](/assets/images/gcp-studyjam-history.png)
+⚠️기존에 스터디잼을 해보신 분들은 아래와 같이 안된다고 나올 수 있습니다. 그럴 땐 진리의 신규 계정으로 접속하세요.</span>   
+!["할당량 초과라고 경고창 뜨는 퀵랩 화면"](/assets/images/gcp-studyjam-history.png)
 
 
-
+<br><br><br>
 2단계: 1크레딧으로 'Qwiklabs 및 Google Cloud 살펴보기' 실습을 진행 및 완료하세요.
-
-
-
+<br><br><br>
 3단계: 'Qwiklabs 및 Google Cloud 살펴보기' 실습을 완료하면 '구독 및 크레딧’메뉴에서 '**월간 구독’을 받으신게 나올겁니다.**
 [https://www.cloudskillsboost.google/my\_account/payments](https://www.cloudskillsboost.google/my_account/payments){:target="_blank"}
 ![](/assets/images/gcp-studyjam-monthly-subscriptions.png)
 
-4단계 : '월간 구독’(monthly subscriptions)을 확인하시면 앞으로 한달동안 아래 퀘스트를 수행하시면 됩니다.
+<br><br><br>
+4단계 : '월간 구독’(monthly subscriptions)을 확인하시면 앞으로 한달동안 아래 퀘스트를 수행하시면 됩니다.<br>
 [https://www.cloudskillsboost.google/quests/29](https://www.cloudskillsboost.google/quests/29)
 
-
-
+<br><br><br>
 같이 보시면 좋은 포스팅: [퀵랩할 때 (강제로) 권장드리는 점](https://lifeoncloud.kr/gcp/gcp-docs/incognito/){:target="_blank"}
-
+<br>
 모두 평화로운 7월, 스터디잼 되시기 바랍니다.
