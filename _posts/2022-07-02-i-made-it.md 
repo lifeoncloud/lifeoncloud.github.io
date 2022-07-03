@@ -2,10 +2,8 @@
 title:  "[일기] 깃헙 블로그를 (드디어) 만들었다."
 excerpt: "시작이 반이다. 그래서 시작이 그렇게 어려웠나보다."
 
-categories:
-  - Blog
-tags:
-  - [Blog, Life, Diary]
+categories: Blog
+tags: [Blog, Life, Diary]
 
 toc: false
 toc_sticky: false
