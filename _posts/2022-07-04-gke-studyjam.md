@@ -1,5 +1,7 @@
 ---
 title: "2022 쿠버네티스 스터디잼 입문 진행방법"
+excerpt: "몸풀기용 포스팅"
+
 date: "2022-07-02"
 categories: gcp
 tags: [GCP, studyjam, GKE]
