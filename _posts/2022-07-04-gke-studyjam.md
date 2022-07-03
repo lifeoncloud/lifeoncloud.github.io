@@ -33,7 +33,7 @@ https://www.cloudskillsboost.google/catalog\_lab/1281?**_{_이후 신청자분�
 
 3단계: 'Qwiklabs 및 Google Cloud 살펴보기' 실습을 완료하면 '구독 및 크레딧’메뉴에서 '**월간 구독’을 받으신게 나올겁니다.**
 
-[https://www.cloudskillsboost.google/my\_account/payments](https://www.cloudskillsboost.google/my_account/payments)
+[https://www.cloudskillsboost.google/my\_account/payments](https://www.cloudskillsboost.google/my_account/payments){:target="_blank"}
 
 ![](/assets/images/gcp-studyjam-monthly-subscriptions.png)
 
@@ -41,6 +41,6 @@ https://www.cloudskillsboost.google/catalog\_lab/1281?**_{_이후 신청자분�
 
 [https://www.cloudskillsboost.google/quests/29](https://www.cloudskillsboost.google/quests/29)
 
-같이 보시면 좋은 포스팅: [퀵랩할 때 (강제로) 권장드리는 점](https://lifeoncloud.kr/gcp/gcp-docs/incognito/)
+같이 보시면 좋은 포스팅: [퀵랩할 때 (강제로) 권장드리는 점](https://lifeoncloud.kr/gcp/gcp-docs/incognito/){:target="_blank"}
 
 모두 평화로운 7월, 스터디잼 되시기 바랍니다.
