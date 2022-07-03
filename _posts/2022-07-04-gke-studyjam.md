@@ -1,8 +1,17 @@
 ---
 title: "2022 쿠버네티스 스터디잼 입문 진행방법"
 date: "2022-07-02"
-categories: "gcp"
+categories: 
+  - gcp
+tags:
+  - [GCP, studyjam, GKE]
 coverImage: "kubernetes-studyjam-2022.png"
+
+toc: true
+toc_sticky: true
+ 
+date: 2022-07-04
+last_modified_at: 2022-07-04
 ---
 
 ![](images/kubernetes-studyjam-2022.png)
