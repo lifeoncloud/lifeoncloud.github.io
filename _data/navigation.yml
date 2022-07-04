@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: "Featured Posts"
-    url: /categories/featured-posts/
+  - title: "k8s"
+    url: /k8s/
   - title: "NCP"
     url: /ncp/
   - title: "GCP"
     url: /gcp/
-  - title: "k8s"
-    url: /k8s/
   - title: "Study"
     url: /study/
+  - title: "Featured Posts"
+    url: /categories/featured-posts/
   - title: "About"
     url: https://lifeoncloud.github.io/about
