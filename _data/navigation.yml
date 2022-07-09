@@ -8,7 +8,5 @@ main:
     url: /gcp/
   - title: "Study"
     url: /study/
-  - title: "Featured"
-    url: /featured/
   - title: "About"
     url: https://lifeoncloud.github.io/about
