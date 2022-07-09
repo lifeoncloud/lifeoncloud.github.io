@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "air"
 locale                   : "ko-KR"
 title                    : "Life On Cloud"
 title_separator          : "-"
-subtitle                 : #"즐겁게 끄적끄적하는 블로그"
+subtitle                 : #"즐겁게 끄적끄적"
 name                     : "라온클"
 description              : #"걷는 사람"
 url                      : "https://lifeoncloud.github.io"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : https://lifeoncloud-github-io.disqus.com/
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -90,7 +90,7 @@ og_image                 : "/assets/images/default-thumbnail.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : Person
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
@@ -98,7 +98,7 @@ social:
 analytics:
   provider               : google
   google:
-    tracking_id          : G-6WNP6Z236E
+    tracking_id          : G-RJRQVDDLK4
     anonymize_ip         : # true, false (default)
 
 
@@ -299,6 +299,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: false
+      comments: true
       share: false
       related: false

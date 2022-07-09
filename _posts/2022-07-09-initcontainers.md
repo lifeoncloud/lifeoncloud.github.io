@@ -5,9 +5,10 @@ excerpt: "간단하게 초기화 컨테이너(initContainers)에 대해 적어�
 categories: k8s
 tags: [Kubernetes]
 
-toc: false
-toc_sticky: false
- 
+toc: true
+toc_sticky: true
+comments: true
+
 date: 2022-07-09
 last_modified_at: 2022-07-10
 ---
