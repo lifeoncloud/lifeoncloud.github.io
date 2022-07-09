@@ -75,7 +75,7 @@ curl로 잘 확인되는걸 볼 수 있다.
 노드포트로도 노출이 잘 되는걸 확인할 수 있다.
 ![노드포트로 노출해서 브라우저에서 접근한 그림](/assets/images/k8s/220709-initcontainer-nujabes-nodeport-exposed.png)
 
-헬로월드 말고 뭐 넣을까 고민하다가 그냥 좋아하는 노래를 넣었다. 모두 Nujabes를 들어주세요🎶
+(헬로월드 말고 뭐 넣을까 고민하다가 그냥 좋아하는 노래를 넣었다. 모두 Nujabes를 들어주세요😌)
 
 
 ### initContainers 예시 2 : 미리 git clone 해두기
@@ -89,4 +89,4 @@ curl로 잘 확인되는걸 볼 수 있다.
 * 강의 [그림으로 배우는 쿠버네티스 깃헙](https://github.com/sysnet4admin/_Lecture_k8s_learning.kit/blob/main/ch7/7.6/pod-initContainers.yaml)
 * 책 [핵심만 콕! 쿠버네티스](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791165920180)
 * 공식 문서 [초기화 컨테이너](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/)
-* 관련 포스팅 [https://lifeoncloud.github.io/k8s/nodeport/](https://lifeoncloud.github.io/k8s/nodeport/) 
+* 관련 포스팅 [노드포트(NodePort) 간단 설명](https://lifeoncloud.github.io/k8s/nodeport/) 
