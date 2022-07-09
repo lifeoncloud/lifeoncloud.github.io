@@ -82,9 +82,9 @@ curl로 잘 확인되는걸 볼 수 있다.
 
 
 ## 참고링크
-* 강의 [<그림으로 배우는 쿠버네티스>](https://www.inflearn.com/course/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/dashboard)
-* 강의 [<그림으로 배우는 쿠버네티스 깃헙>](https://github.com/sysnet4admin/_Lecture_k8s_learning.kit/blob/main/ch7/7.6/pod-initContainers.yaml)
-* 책 [<핵심만 콕! 쿠버네티스>](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791165920180)
-* 책 [<핵심만 콕! 쿠버네티스> 깃헙](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml)
-* 공식 문서 [초기화 컨테이너](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/)
-* 관련 포스팅 [노드포트(NodePort) 간단 설명](https://lifeoncloud.github.io/k8s/nodeport/) 
+* 강의 [그림으로 배우는 쿠버네티스](https://www.inflearn.com/course/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/dashboard){:target="_blank"}
+* 강의 [그림으로 배우는 쿠버네티스 깃헙](https://github.com/sysnet4admin/_Lecture_k8s_learning.kit/blob/main/ch7/7.6/pod-initContainers.yaml){:target="_blank"}
+* 책 [<핵심만 콕! 쿠버네티스>](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791165920180){:target="_blank"}
+* 책 [<핵심만 콕! 쿠버네티스> 깃헙](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml){:target="_blank"}
+* 공식 문서 [초기화 컨테이너](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/){:target="_blank"}
+* 관련 포스팅 [노드포트(NodePort) 간단 설명](https://lifeoncloud.github.io/k8s/nodeport/)
