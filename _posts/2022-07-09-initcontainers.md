@@ -9,7 +9,7 @@ toc: false
 toc_sticky: false
  
 date: 2022-07-09
-last_modified_at: 2022-07-09
+last_modified_at: 2022-07-10
 ---
 
 ## initContainers(초기화 컨테이너)란?
