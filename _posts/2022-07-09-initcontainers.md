@@ -3,7 +3,7 @@ title:  "초기화 컨테이너(initContainers) 간단 설명"
 excerpt: "간단하게 초기화 컨테이너(initContainers)에 대해 적어보았습니다. (feat. Nujabes)"
 
 categories: k8s
-tags: [Kubernetes, Featured]
+tags: [Kubernetes]
 
 toc: false
 toc_sticky: false
