@@ -75,19 +75,15 @@ curl로 잘 확인되는걸 볼 수 있다.
 ![노드포트로 노출해서 브라우저에서 접근한 그림](/assets/images/k8s/220709-initcontainer-nujabes-nodeport-exposed.png)
 
 
+
 ### initContainers 예시 2 : 미리 git clone 해두기
-요 yaml파일은 링크로 대신한다. 책 <핵심만 콕! 쿠버네티스>의 공식 깃헙에 가면 볼 수 있다. 
-
-[https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml) 
-
+책 [<핵심만 콕! 쿠버네티스>의 공식 깃헙](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml)에서 해당 yaml파일을 볼 수 있다.
+헬로월드 말고 뭐 넣을까 고민하다가 그냥 좋아하는 노래를 넣었다. 모두 Nujabes를 들어주세요🎶
 
 
 ## 참고링크
 * 강의 [그림으로 배우는 쿠버네티스](https://www.inflearn.com/course/%EA%B7%B8%EB%A6%BC%EC%9C%BC%EB%A1%9C-%EB%B0%B0%EC%9A%B0%EB%8A%94-%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/dashboard)
 * 강의 [그림으로 배우는 쿠버네티스 깃헙](https://github.com/sysnet4admin/_Lecture_k8s_learning.kit/blob/main/ch7/7.6/pod-initContainers.yaml)
 * 책 [핵심만 콕! 쿠버네티스](https://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9791165920180)
-* 공식 문서
-    * [https://kubernetes.io/ko/docs/concepts/workloads/pods/pod-lifecycle/](https://kubernetes.io/ko/docs/concepts/workloads/pods/pod-lifecycle/)
-    * [https://kubernetes.io/ko/docs/tasks/configure-pod-container/configure-pod-initialization/](https://kubernetes.io/ko/docs/tasks/configure-pod-container/configure-pod-initialization/) 
-    * [https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/) 
- * 포스팅 [https://lifeoncloud.github.io/k8s/nodeport/](https://lifeoncloud.github.io/k8s/nodeport/) 
+* 공식 문서 [초기화 컨테이너](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/)
+* 관련 포스팅 [https://lifeoncloud.github.io/k8s/nodeport/](https://lifeoncloud.github.io/k8s/nodeport/) 
