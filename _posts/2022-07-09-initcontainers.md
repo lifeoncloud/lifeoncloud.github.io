@@ -88,3 +88,26 @@ curl로 잘 확인되는걸 볼 수 있다.
 * 책 [<핵심만 콕! 쿠버네티스> 깃헙](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml){:target="_blank"}
 * 공식 문서 [초기화 컨테이너](https://kubernetes.io/ko/docs/concepts/workloads/pods/init-containers/){:target="_blank"}
 * 관련 포스팅 [노드포트(NodePort) 간단 설명](https://lifeoncloud.github.io/k8s/nodeport/)
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://lifeoncloud-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
