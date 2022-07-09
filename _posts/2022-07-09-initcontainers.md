@@ -14,7 +14,8 @@ last_modified_at: 2022-07-09
 
 ## initContainers(초기화 컨테이너)란?
 ![초기화 컨테이너를 흙에 비유한 그림](/assets/images/k8s/220709-initcontainer-pic.jpg)
-
+시작할 때만 Pod에 도움 주고 빠지는 컨테이너다.   
+식물로 치면, 식물이 잘 자랄 수 있도록 도와주는 흙 역할을 한다.
 
 
 
@@ -74,11 +75,13 @@ curl로 잘 확인되는걸 볼 수 있다.
 노드포트로도 노출이 잘 되는걸 확인할 수 있다.
 ![노드포트로 노출해서 브라우저에서 접근한 그림](/assets/images/k8s/220709-initcontainer-nujabes-nodeport-exposed.png)
 
+헬로월드 말고 뭐 넣을까 고민하다가 그냥 좋아하는 노래를 넣었다. 모두 Nujabes를 들어주세요🎶
 
 
 ### initContainers 예시 2 : 미리 git clone 해두기
 책 [<핵심만 콕! 쿠버네티스>의 공식 깃헙](https://github.com/bjpublic/core_kubernetes/blob/master/chapters/05/init-container.yaml)에서 해당 yaml파일을 볼 수 있다.
-헬로월드 말고 뭐 넣을까 고민하다가 그냥 좋아하는 노래를 넣었다. 모두 Nujabes를 들어주세요🎶
+
+
 
 
 ## 참고링크
