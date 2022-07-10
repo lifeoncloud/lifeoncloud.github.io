@@ -5,6 +5,9 @@ excerpt: "간단하게 초기화 컨테이너(initContainers)에 대해 적어�
 categories: k8s
 tags: [Kubernetes]
 
+header:
+  teaser: "/assets/images/k8s/220709-initcontainer-pic.jpg"
+
 toc: true
 toc_sticky: true
 comments: true
