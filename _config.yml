@@ -24,7 +24,7 @@ description              : #"걷는 사람"
 url                      : "https://lifeoncloud.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/materials/lifeoncloud-github-io-default-thumbnail.png"
 logo                     : "/assets/images/materials/cloud-favicon-75.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -38,7 +38,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 5 (default)
+    num_posts            : 10
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/default-thumbnail.png"
+og_image                 : "/assets/images/materials/lifeoncloud-github-io-default-thumbnail.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "라온클"
   avatar           : "/assets/images/materials/soojin-by-hand-drawing.jpg"
-  bio              : # "걷는 사람"
+  bio              : # "클라우드 관련 공부하는 사람"
   location         : # "Goyang"
   email            :
   links:
@@ -137,7 +137,7 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/soojinleeoncloud"
+      # url: 
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -299,6 +299,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: true
+      comments: false
       share: false
       related: false
