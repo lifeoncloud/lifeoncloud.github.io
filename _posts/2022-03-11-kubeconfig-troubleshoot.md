@@ -5,6 +5,9 @@ excerpt: "권한 췤"
 categories: k8s
 tags: [Kubernetes]
 
+header:
+  teaser: "/assets/images/k8s/220311-kubeconfig-troubleshoot-blurred-02.jpg" 
+
 toc: true
 toc_sticky: true
 comments: true
