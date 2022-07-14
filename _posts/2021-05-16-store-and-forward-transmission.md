@@ -78,7 +78,7 @@ last_modified_at: 2022-07-14
 
 혹시 틀린 부분이 있으면 댓글로 말씀해주시면 감사하겠습니다.
 
-\
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
