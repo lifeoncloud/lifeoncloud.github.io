@@ -3,7 +3,7 @@ title:  "저장 후 전달"
 excerpt: "저장 후 전달, 종단간 지연, 큐잉 지연"
 
 categories: study
-tags: [Study,Network]
+tags: [Network]
 
 header:
   teaser: "/assets/images/study/210516-store-and-forward-transmission.png"
