@@ -129,48 +129,13 @@ NoSQL의 특징으로는 다음과 같다.
 * 컬렉션을 저장할 때, 컬렉션명 앞에 데이터베이스명을 붙이면, 즉 데이터베이스명을 명시하면 올바른 컬렉션명인 네임스페이스를 얻는다.
 
 정리하면 다음과 같다.
-
-
-<table>
-  <tr>
-   <td>관계형 데이터베이스
-   </td>
-   <td>MongoDB
-   </td>
-  </tr>
-  <tr>
-   <td>Table
-   </td>
-   <td>Collection
-   </td>
-  </tr>
-  <tr>
-   <td>Record
-   </td>
-   <td>Document
-   </td>
-  </tr>
-  <tr>
-   <td>Column
-   </td>
-   <td>Field
-   </td>
-  </tr>
-  <tr>
-   <td>Primary Key
-   </td>
-   <td>Object<strong>_ID</strong> Field
-   </td>
-  </tr>
-  <tr>
-   <td>Relationship
-   </td>
-   <td>Embeded & Link
-   </td>
-  </tr>
-</table>
-
-
+|관계형 데이터베이스|MongoDB|
+|---|---|
+|Table|Collection|
+|Record|Document|
+|Column|Field|
+|Primary Key|Object_ID Field|
+|Relationship|Embeded & Link|
 
 ### MongoDB 기본 사용법(CRUD)
 
