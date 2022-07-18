@@ -219,15 +219,20 @@ db.users.insertMany(
   <tr>
    <td>db.users.find()
    </td>
-   <td>SELECT * 
-<p>
+   <td>
+   ```SELECT * 
 FROM user
+```
    </td>
   </tr>
   <tr>
-   <td>db.users.find({ }, { name: 1, age: 1 })
+   <td>
+   ```
+   db.users.find({ }, { name: 1, age: 1 })
+   SELECT _id, name, age
+   ```
    </td>
-   <td>SELECT _id, name, age
+   <td>
 <p>
 FROM user
    </td>
@@ -257,11 +262,11 @@ WHERE age > 30
    </td>
    <td>SELECT * 
 <p>
+```
 FROM user
-<p>
 WHERE emotion = "happy"
-<p>
 ORDER BY age ASC
+```
    </td>
   </tr>
 </table>
