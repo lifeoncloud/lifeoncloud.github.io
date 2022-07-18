@@ -107,8 +107,8 @@ NoSQL의 특징으로는 다음과 같다.
 
 컬렉션은 동적 스키마를 가진다.
 하나의 컬렉션 안에 있는 도큐먼트들은 다른 구조를 가질 수 있다는 뜻이다.
+예를 들어 다음 컬렉션을 보자.
 ```sql
-#컬렉션 예시
 {
     "greeting": "Good Night!",
     "age": 17
@@ -120,8 +120,6 @@ NoSQL의 특징으로는 다음과 같다.
 ```
 
 데이터베이스(Database)
-
-
 
 * 컬렉션이 도큐먼트를 그룹화 한 것이라면, 데이터베이스는 컬렉션을 그룹화한 것이다.
 * 데이터베이스는 컬렉션과 마찬가지로 이름으로 식별된다. 
@@ -146,10 +144,10 @@ NoSQL의 특징으로는 다음과 같다.
 
 
 ```sql
-# 콜렉션 생성하기
+-- 콜렉션 생성하기
 db.createCollection("users")
 
-# Document 1개 입력하기 : insertOne 
+-- Document 1개 입력하기 : insertOne 
 db.users.insertOne(
  {
   name: "kai",
@@ -158,10 +156,9 @@ db.users.insertOne(
  }
 )
 
-# Document 여러개 입력하기 : insertMany
-# insertMany를 사용하면 RDBMS 처럼 컬럼(스키마)를 편하게 입력 가능(파이썬의 List [] 문법을 사용한다.)
+-- Document 여러개 입력하기 : insertMany
+-- insertMany를 사용하면 RDBMS 처럼 컬럼(스키마)를 편하게 입력 가능(파이썬의 List [] 문법을 사용한다.)
 db.users.insertMany(
-
  [
   { name: "soojin", age: 32, emotion: "joyful" },
   { name: "jk", age: 31, emotion: "happy" },
@@ -191,14 +188,15 @@ set는 field를 지정한다.
 inc: field 값을 증가시키거나, 감소시킨다.
 
 ```sql
-# $inc를 사용한 update 예시: name이 "soojin"인 Document의 age를 10 감소시키기
+-- $inc를 사용한 update 예시: name이 "soojin"인 Document의 age를 10 감소시키기
 db.users.updateOne(
     {name: "soojin"},
     {$inc: {age: -10}}
 )
 
-# $set를 사용한 update 예시: age 가 30 보다 큰 Document 들의 status 를 sad 로 변환하기
+-- $set를 사용한 update 예시: age 가 30 보다 큰 Document 들의 status 를 sad 로 변환하기
 db.users.updateMany( { age: {$gt: 30} }, { $set: {emotion: "sad"} } )
+
 ```
 ![update](/assets/images/k8s/220626-doik-mongodb-crud-3-update-set.png)
 ![update](/assets/images/k8s/220626-doik-mongodb-crud-3-update-inc.png)
@@ -206,13 +204,13 @@ db.users.updateMany( { age: {$gt: 30} }, { $set: {emotion: "sad"} } )
 
 #### Delete
 ```sql
-# emotion이 "sad"인 도큐먼트만 삭제하기
+-- emotion이 "sad"인 도큐먼트만 삭제하기
 db.users.deleteMany( { emotion: "sad" } )
 
-# 도큐먼트 일괄 삭제하기
+-- 도큐먼트 일괄 삭제하기
 db.users.deleteMany({})
 
-#user 컬렉션 삭제하기
+-- user 컬렉션 삭제하기
 db.users.drop()
 ```
 
