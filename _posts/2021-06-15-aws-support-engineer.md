@@ -19,10 +19,13 @@ last_modified_at: 2022-07-19
 ---
 
 다음달에 'AWS Korea Support Engineering team - Meet our Cloud Support Engineers' 세션이 열립니다.
-일시 : 2022년 8월 11일 목, 오후 7:00 - 오후 8:00 KST
-신청 : [https://register.gotowebinar.com/register/5518174406250338828](https://register.gotowebinar.com/register/5518174406250338828){:target="_blank"}
 
-작년에 정리했던 'AWS Cloud Support Engineeer’s Work and Life' 세션 메모를 올려봅니다.
+* 일시 : 2022년 8월 11일 목, 오후 7:00 - 오후 8:00 KST
+* 신청 : [https://register.gotowebinar.com/register/5518174406250338828](https://register.gotowebinar.com/register/5518174406250338828){:target="_blank"}
+
+<br>
+작년에 정리했던 'AWS Cloud Support Engineeer’s Work and Life' 세션이 생각나서 그 때 정리한 메모를 올려봅니다.
+(문제시 삭제하겠습니다.)
 
 ---
 
