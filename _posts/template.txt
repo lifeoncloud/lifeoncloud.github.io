@@ -8,6 +8,10 @@ tags: [태그 이름]
 header:
   teaser: "/assets/images/[카테고리 소문자]/썸네일이미지파일" 
 
+toc: true
+toc_sticky: true
+comments: true
+
 comments: true
 
 date: 2021-05-30
