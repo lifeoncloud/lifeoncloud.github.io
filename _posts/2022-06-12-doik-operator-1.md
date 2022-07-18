@@ -108,8 +108,6 @@ Controller는 다음 툴로 생성할 수 있다.
 * [https://ccambo.blogspot.com/2020/12/kubernetes-operator-kubernetes-operator.html](https://ccambo.blogspot.com/2020/12/kubernetes-operator-kubernetes-operator.html){:target="_blank"} 
 
 
-<댓글 삽입>
-
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
