@@ -104,3 +104,17 @@ A. 포지션 자체가 문제되진 않습니다. 기술력 혹은 경험치 만
 <br>
 Q. KPI 산정은 어떻게 하나? <br>
 A. 프로파일마다 다르긴한데, 한달에 맞춰야 하는 케이스 수가 있다. 그리고 고객의 평가도 저희가 맞춰야하는 목표 중 하나다.
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://lifeoncloud-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
