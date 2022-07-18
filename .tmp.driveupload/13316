@@ -208,69 +208,13 @@ db.users.insertMany(
 ![DB 생성 후, 컬렉션 생성](/assets/images/k8s/220626-doik-mongodb-crud-1-use-db-create-collection-document.png)
 
 #### Search(=Read)
-
-<table>
-  <tr>
-   <td>MongoDB
-   </td>
-   <td>RDBMS
-   </td>
-  </tr>
-  <tr>
-   <td>db.users.find()
-   </td>
-   <td>
-   ```SELECT * 
-FROM user
-```
-   </td>
-  </tr>
-  <tr>
-   <td>
-   ```
-   db.users.find({ }, { name: 1, age: 1 })
-   SELECT _id, name, age
-   ```
-   </td>
-   <td>
-<p>
-FROM user
-   </td>
-  </tr>
-  <tr>
-   <td>db.users.find({ emotion: "happy"})
-   </td>
-   <td>SELECT * 
-<p>
-FROM user
-<p>
-WHERE emotion = "happy"
-   </td>
-  </tr>
-  <tr>
-   <td>db.users.find({ age: { $gt: 30 } }) 
-   </td>
-   <td>SELECT * 
-<p>
-FROM user
-<p>
-WHERE age > 30
-   </td>
-  </tr>
-  <tr>
-   <td>db.users.find({ emotion: "happy" } ).sort( { age: 1 })
-   </td>
-   <td>SELECT * 
-<p>
-```
-FROM user
-WHERE emotion = "happy"
-ORDER BY age ASC
-```
-   </td>
-  </tr>
-</table>
-
+|MongoDB|RDBMS|
+|:---:|:---:|
+|```db.users.find()```|```SELECT * FROM user```|
+|```db.users.find({ }, { name: 1, age: 1 })```|```SELECT _id, name, age FROM user```|
+|```db.users.find({ emotion: "happy"})```|```SELECT * FROM user WHERE emotion = "happy"```|
+|```db.users.find({ age: { $gt: 30 } })```|```SELECT * FROM user WHERE age > 30```|
+|```db.users.find({ emotion: "happy" } ).sort( { age: 1 })```|```SELECT * FROM user WHERE emotion = "happy" ORDER BY age ASC```|
 
 ![read](/assets/images/k8s/220626-doik-mongodb-crud-2-read.png)
 
