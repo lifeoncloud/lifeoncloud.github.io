@@ -40,25 +40,36 @@ last_modified_at: 2022-07-23
 
 **MFA는 필수다. 꼭 설정해두자.**
 
-나는 NCP, AWS, GCP 같은 클라우드는 물론 중요 계정은 모두 MFA를 설정해두었다.<br>  
-<img src="/assets/images/gcp/220515-cloud-security-mfa-list.jpg" width="300px" title="google otp" alt="google otp">
+나는 NCP, GCP, AWS 같은 클라우드는 물론 중요 계정은 모두 MFA를 설정해두었다<br> 
+NCP의 경우 NCP 홈페이지 > 마이페이지 > 계정 관리 > 보안 설정 에서 아래와 같이 MFA를 설정할 수 있다. <br>
+[https://www.ncloud.com/mypage/manage/security ](https://www.ncloud.com/mypage/manage/security ){:target="_blank"}   
+![NCP에서 2차 인증 설정하는 곳](/assets/images/study/220515-cloud-security-mfa-configuraiton-in-ncp.png)
+
+
+
+아래 캡쳐는 내 Google OTP 캡쳐다. 캡쳐에 있는 것보다 훨씬 많은 계정을 MFA 설정해두었다. <br>
+<img src="/assets/images/study/220515-cloud-security-mfa-list.jpg" width="300px" title="google otp" alt="google otp">
 <br>
-위 캡쳐에 있는 것보다 더 많은 계정을 MFA 설정해두었다. <br>
+
 솔직히 난 진짜 어지간한 귀차니스트인데, 위에 63빌딩을 목도한 이후로 내내 무서움이 귀찮음을 이기고 있다😇  ~~금융 치료~~
 
 <br>
 <br>
 <br>
 
+
+
+
+
 ## 2. 액세스키 올리지 않도록 주의하자.
 
-!["깃헙에 액세스키 올리지마!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/gcp/220515-cloud-security-do-not-upload-access-key-to-github-interstella-400.gif)
+!["깃헙에 액세스키 올리지마!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/study/220515-cloud-security-do-not-upload-access-key-to-github-interstella-400.gif)
 
 
 사실 MFA만큼이나 깃헙에 액세스키를 그대로 올려서 해킹당하는 사례가 훨씬 많다고 한다.
 지금 생각해보면 내가 해킹당했었던 건도 MFA를 안 해둬서라기보단 액세스키를 깃헙에 올려서가 아닐까 생각한다. ~~물론 비밀번호 난이도도 노답이긴 했다.~~
 
-유사하게, 깃헙에는 GCP의 프로젝트ID와 service account, 키파일을 올리지 않는것을 권한다.
+유사하게, GCP의 경우 깃헙에 프로젝트ID는 물론 service account, 키파일을 올리지 않는것을 권한다.
 
 <br>
 <br>
@@ -66,11 +77,12 @@ last_modified_at: 2022-07-23
 
 ## 3. Root계정 말고 IAM계정으로 쓰자
 
-이 부분은 리눅서님이 깔끔하게 올려주셔서, 링크로 대체한다. <br>
-[클라우드를 시작하는 사람을 위한 안내서](https://linuxer.name/2022/05/%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c%eb%a5%bc-%ec%8b%9c%ec%9e%91%ed%95%98%eb%8a%94-%ec%82%ac%eb%9e%8c%ec%9d%84-%ec%9c%84%ed%95%9c-%ec%95%88%eb%82%b4%ec%84%9c/){:target="_blank"}
+이 부분은 리눅서님과 김수현님께서 잘 정리해두신 포스팅을 소개한다.
+- NCP : 김수현 님의 [[NCP]네이버 클라우드에서의 보안 – ACCOUNT (API KEY, SUB ACCOUNT)](https://manvscloud.com/?p=794){:target="_blank"}
+- AWS : 리눅서님의 [클라우드를 시작하는 사람을 위한 안내서](https://linuxer.name/2022/05/%ed%81%b4%eb%9d%bc%ec%9a%b0%eb%93%9c%eb%a5%bc-%ec%8b%9c%ec%9e%91%ed%95%98%eb%8a%94-%ec%82%ac%eb%9e%8c%ec%9d%84-%ec%9c%84%ed%95%9c-%ec%95%88%eb%82%b4%ec%84%9c/){:target="_blank"}
 
-AWS에는 MFA, budget alert만 세팅해뒀는데, 리눅서님 덕분에 더 안전한 역할 전환을 알게 되었다. 감사합니다🙇🏻‍♀️   
-후반부 역할 전환 부분만 더 자세히 설명하면 다음과 같다.   
+
+AWS의 역할 전환 부분만 더 자세히 설명하면 다음과 같다.   
 
 역할 전환 방법 상세 <br>
 1.A브라우저에서 root 계정으로 로그인 한다.   <br>
@@ -93,7 +105,7 @@ AWS에는 MFA, budget alert만 세팅해뒀는데, 리눅서님 덕분에 더 �
 
 <br>
 그리고 주변 분들 반응.. <br>
-<img src="/assets/images/gcp/220515-cloud-security-summary.jpg" width="300px" title="세줄 요약을 본 주변 분들 반응" alt="세줄 요약을 본 주변 분들 반응">
+<img src="/assets/images/study/220515-cloud-security-summary.jpg" width="300px" title="세줄 요약을 본 주변 분들 반응" alt="세줄 요약을 본 주변 분들 반응">
 
 <br><br><br>
 
