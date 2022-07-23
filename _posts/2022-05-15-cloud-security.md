@@ -52,7 +52,7 @@ last_modified_at: 2022-07-23
 
 ## 2. 액세스키 올리지 않도록 주의하자.
 
-!["깃헙에 액세스키 올리지마!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/gcp/220515-cloud-security-do-not-upload-access-key-to-github-interstella.gif)
+!["깃헙에 액세스키 올리지마!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/gcp/220515-cloud-security-do-not-upload-access-key-to-github-interstella-400.gif)
 
 
 사실 MFA만큼이나 깃헙에 액세스키를 그대로 올려서 해킹당하는 사례가 훨씬 많다고 한다.
