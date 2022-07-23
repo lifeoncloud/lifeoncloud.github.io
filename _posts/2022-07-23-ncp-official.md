@@ -10,14 +10,14 @@ header:
 
 toc: true
 toc_sticky: true
-comments: true
+comments: false
 
 date: 2022-07-23
 last_modified_at: 2022-07-23
 ---
 
 분야 별로 곧식 URL을 정리했습니다! <br>
-아래 URL 들은 NCP 공식 링크트리인 아래 URL에서 한번에 확인할 수 있습니다. 링크트리만 즐겨찾기 해두셔도 편하실거예요 :)
+아래 URL 들은 NCP 공식 링크트리인 아래 URL에서 한번에 확인할 수 있습니다. 링크트리만 즐겨찾기 해두셔도 편하실거예요 :)  <br>
 [https://linktr.ee/navercloudplatform](https://linktr.ee/navercloudplatform){:target="_blank"}
 
 
@@ -29,11 +29,9 @@ last_modified_at: 2022-07-23
 
 사용 가이드 : [https://guide.ncloud-docs.com/docs/ko/home](https://guide.ncloud-docs.com/docs/ko/home){:target="_blank"} 
 
-쉬운 시작 가이드 : [https://www.ncloud.com/guideCenter/guide](https://www.ncloud.com/guideCenter/guide){:target="_blank"} 
+데이터센터 위치 : [https://www.ncloud.com/intro/dataCenter](https://www.ncloud.com/intro/dataCenter)
 
-뉴스레터 : [https://www.ncloud.com/?newsLetter=true](https://www.ncloud.com/?newsLetter=true){:target="_blank"} 
-
-데이터센터 : [https://www.ncloud.com/intro/dataCenter](https://www.ncloud.com/intro/dataCenter)
+뉴스레터 신청하기 : [https://www.ncloud.com/?newsLetter=true](https://www.ncloud.com/?newsLetter=true){:target="_blank"} 
 
 <br><br><br>
 
@@ -57,6 +55,7 @@ NCP 공식 기술 블로그 : [https://medium.com/naver-cloud-platform](https://
 
 edwith 무료 온라인 강의 : [https://www.edwith.org/ptnr/ncloudedu](https://www.edwith.org/ptnr/ncloudedu){:target="_blank"} 
 
+<br><br><br>
 
 ### 가격
 
@@ -82,16 +81,3 @@ NCP 링크드인 : [https://www.linkedin.com/company/navercloud/](https://www.li
 
 <br><br><br>
 
-
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://lifeoncloud-github-io.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
