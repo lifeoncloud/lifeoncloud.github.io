@@ -21,7 +21,7 @@ last_modified_at: 2022-07-23
 이 포스팅을 쓰게 된 계기 : [고민) AWS 해킹 당해서 사용료 3억이 넘게 나왔습니다. ](https://www.clien.net/service/board/park/17225662){:target="_blank"}
 <br>
 <br>
-위의 해킹 사건이 내게 남일이 아닌 이유는, 당장 나도 취준생 시절 국비학원에서 지원받은 AWS계정을 해킹 당했었고, 빌링그래프로 63빌딩을 세웠었기 때문이다. 
+위의 해킹 사건이 내게 남일이 아닌 이유는, 당장 나도 취준생 시절 국비학원에서 지원받은 AWS계정을 해킹 당했었기 때문이다.
 
 ![빌링그래프로 63빌딩 세운 현장](/assets/images/gcp/201203-billing-support-0-63building.png)
 ~~63빌딩~~ <br>
@@ -33,14 +33,14 @@ last_modified_at: 2022-07-23
 <br>
 <br>
 
-## 1. MFA 설정하자.
+## 1. MFA 설정하자
 
 !["MFA! MFA 설정해놔!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/gcp/201203-billing-support-mfa-400.gif) <br>
 사실 위와 같은 해킹은 [Google OTP](https://apps.apple.com/kr/app/google-authenticator/id388497605){:target="_blank"}, [Microsoft Authenticator](https://apps.apple.com/us/app/microsoft-authenticator/id983156458){:target="_blank"} 앱으로 MFA설정만 해도 상당 부분 막을 수 있다.
 
 **MFA는 필수다. 꼭 설정해두자.**
 
-나는 NCP, GCP, AWS 같은 클라우드는 물론 중요 계정은 모두 MFA를 설정해두었다<br> 
+나는 NCP, GCP, AWS 같은 클라우드는 물론 중요 계정은 모두 MFA를 설정해두었다. <br> 
 NCP의 경우 [NCP 홈페이지 > 마이페이지 > 계정 관리 > 보안 설정](https://www.ncloud.com/mypage/manage/security){:target="_blank"} 에서 아래와 같이 MFA를 설정할 수 있다. <br>
 
 ![NCP에서 2차 인증 설정하는 곳](/assets/images/study/220515-cloud-security-mfa-configuraiton-in-ncp.png)
@@ -56,7 +56,7 @@ NCP의 경우 [NCP 홈페이지 > 마이페이지 > 계정 관리 > 보안 설�
 
 
 
-## 2. 액세스키 올리지 않도록 주의하자.
+## 2. 깃헙에 액세스키 올리지 않도록 주의하자
 
 !["깃헙에 액세스키 올리지마!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/study/220515-cloud-security-do-not-upload-access-key-to-github-interstella-400.gif)
 
