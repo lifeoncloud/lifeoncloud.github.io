@@ -35,7 +35,7 @@ last_modified_at: 2022-07-23
 
 <br><br><br>
 
-### 채널
+## 채널
 
 NCP 공식 블로그 : [https://blog.naver.com/n_cloudplatform](https://blog.naver.com/n_cloudplatform){:target="_blank"} 
 
@@ -45,7 +45,7 @@ NCP 공식 기술 블로그 : [https://medium.com/naver-cloud-platform](https://
 
 <br><br><br>
 
-### 교육
+## 교육
 
 교육 포탈 : [https://edu.ncloud.com/](https://edu.ncloud.com/){:target="_blank"} 
 
@@ -57,7 +57,7 @@ edwith 무료 온라인 강의 : [https://www.edwith.org/ptnr/ncloudedu](https:/
 
 <br><br><br>
 
-### 가격
+## 가격
 
 요금 소개 : [https://www.ncloud.com/charge/price](https://www.ncloud.com/charge/price){:target="_blank"} 
 
@@ -65,7 +65,7 @@ edwith 무료 온라인 강의 : [https://www.edwith.org/ptnr/ncloudedu](https:/
 
 <br><br><br>
 
-### 채용
+## 채용
 
 네이버 클라우드 채용 : [https://recruit.navercloudcorp.com/navercloud/recruitMain](https://recruit.navercloudcorp.com/navercloud/recruitMain){:target="_blank"} 
 
@@ -73,11 +73,9 @@ NCP 링크드인 : [https://www.linkedin.com/company/navercloud/](https://www.li
 
 <br><br><br>
 
-### 사용자 커뮤니티
+## 사용자 커뮤니티
 
 페이스북 - 네이버 클라우드 플랫폼 사용자 그룹 : [https://www.facebook.com/groups/ncpusergroup/](https://www.facebook.com/groups/ncpusergroup/){:target="_blank"} 
 
 카카오톡 오픈카톡방 - 네이버 클라우드 플랫폼 유저 커뮤니티 : [https://open.kakao.com/o/gRNIEFOc](https://open.kakao.com/o/gRNIEFOc){:target="_blank"} 
-
-<br><br><br>
 
