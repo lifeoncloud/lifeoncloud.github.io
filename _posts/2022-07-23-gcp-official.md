@@ -31,9 +31,9 @@ last_modified_at: 2022-07-23
 공식 Status board : [https://status.cloud.google.com/](https://status.cloud.google.com/){:target="_blank"} 
 
 위치 : 
-[https://cloud.google.com/about/locations?hl=ko](https://cloud.google.com/about/locations?hl=ko){:target="_blank"} 
+[https://cloud.google.com/about/locations](https://cloud.google.com/about/locations){:target="_blank"} 
 
-Compute Engine 리전 : [https://cloud.google.com/compute/docs/regions-zones?hl=ko](https://cloud.google.com/compute/docs/regions-zones?hl=ko){:target="_blank"} 
+Compute Engine 리전 : [https://cloud.google.com/compute/docs/regions-zones](https://cloud.google.com/compute/docs/regions-zones){:target="_blank"} 
 
 
 <br><br><br>
@@ -125,9 +125,9 @@ PLURALSIGHT 강의 : [https://www.pluralsight.com/authors/google-cloud](https://
 Google Cloud Skills Boost (구 Qwiklabs) 실습 : 
 [https://www.cloudskillsboost.google/](https://www.cloudskillsboost.google/){:target="_blank"} 
 
-코드랩(codelabs){:target="_blank"} 실습 : [https://codelabs.developers.google.com/](https://codelabs.developers.google.com/){:target="_blank"} 
+코드랩(codelabs) 실습 : [https://codelabs.developers.google.com/](https://codelabs.developers.google.com/){:target="_blank"} 
 
-치트시트(CheatSheet){:target="_blank"} : [https://googlecloudcheatsheet.withgoogle.com/](https://googlecloudcheatsheet.withgoogle.com/){:target="_blank"} 
+치트시트(CheatSheet) : [https://googlecloudcheatsheet.withgoogle.com/](https://googlecloudcheatsheet.withgoogle.com/){:target="_blank"} 
 
 priyankavergadiasal님의 google cloud 4 words : [https://github.com/priyankavergadia/google-cloud-4-words](https://github.com/priyankavergadia/google-cloud-4-words){:target="_blank"} 
 
@@ -143,11 +143,11 @@ priyankavergadiasal님의 google cloud 4 words : [https://github.com/priyankaver
 
  <br><br><br>
 
-### 가격(Pricing){:target="_blank"}
+### 가격(Pricing)
 
 
 제품별 가격 목록 : 
-[https://cloud.google.com/pricing/list?hl=ko](https://cloud.google.com/pricing/list?hl=ko){:target="_blank"} 
+[https://cloud.google.com/pricing/list](https://cloud.google.com/pricing/list){:target="_blank"} 
 
 SKU 별 가격 : [https://cloud.google.com/skus/sku-groups](https://cloud.google.com/skus/sku-groups){:target="_blank"} 
 
@@ -169,7 +169,7 @@ SKU 별 가격 : [https://cloud.google.com/skus/sku-groups](https://cloud.google
 
 ### 기타
 
-AWS와 Azure 서비스를 Google Cloud와 비교  : [https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison){:target="_blank"} 
+AWS와 Azure 서비스를 Google Cloud와 비교 : [https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison){:target="_blank"} 
 
  <br><br><br>
 
