@@ -6,7 +6,7 @@ categories: [gcp]
 tags: [GCP]
 
 header:
-  teaser: "/assets/images/[카테고리 소문자]/썸네일이미지파일" 
+  teaser: "" 
 
 toc: true
 toc_sticky: true
@@ -20,21 +20,13 @@ last_modified_at: 2022-07-23
 
 ### 공식
 
-홈페이지
- : 
-[https://cloud.google.com/](https://cloud.google.com/){:target="_blank"} 
+홈페이지 : [https://cloud.google.com/](https://cloud.google.com/){:target="_blank"} 
 
-공식 문서
- : 
-[https://cloud.google.com/docs/](https://cloud.google.com/docs/){:target="_blank"} 
+공식 문서 : [https://cloud.google.com/docs/](https://cloud.google.com/docs/){:target="_blank"} 
 
-공식 아이콘
- : 
-[https://cloud.google.com/icons](https://cloud.google.com/icons){:target="_blank"} 
+공식 아이콘 : [https://cloud.google.com/icons](https://cloud.google.com/icons){:target="_blank"} 
 
-공식 Status board
- : 
-[https://status.cloud.google.com/](https://status.cloud.google.com/){:target="_blank"} 
+공식 Status board : [https://status.cloud.google.com/](https://status.cloud.google.com/){:target="_blank"} 
 
 위치
  : 
@@ -95,7 +87,7 @@ Google Cloud Tech
 [https://cloud.google.com/podcasts/](https://cloud.google.com/podcasts/){:target="_blank"} 
 
 
- <br> <br> <br?
+ <br> <br> <br>
 
 ### 깃헙(GitHub)
 
@@ -112,8 +104,7 @@ GCP 깃헙
 
 ### 커뮤니티
 
-커뮤니티
-[https://www.googlecloudcommunity.com/gc/Google-Cloud/ct-p/google-cloud](https://www.googlecloudcommunity.com/gc/Google-Cloud/ct-p/google-cloud){:target="_blank"} 
+커뮤니티 : [https://www.googlecloudcommunity.com/gc/Google-Cloud/ct-p/google-cloud](https://www.googlecloudcommunity.com/gc/Google-Cloud/ct-p/google-cloud){:target="_blank"} 
 
 
  <br> <br> <br>
@@ -153,7 +144,7 @@ Google Cloud Next
  : 
 [https://webassessor.com/googlecloud](https://webassessor.com/googlecloud){:target="_blank"}
 
-자격증 Credential Holder Directory (합격자 명단){:target="_blank"}
+자격증 Credential Holder Directory (합격자 명단)
  : 
 [https://googlecloudcertified.credential.net/](https://googlecloudcertified.credential.net/){:target="_blank"} 
 
@@ -247,6 +238,21 @@ SKU 별 가격
 
 ### 기타
 
-AWS와 Azure 서비스를 Google Cloud와 비교 
- : 
+AWS와 Azure 서비스를 Google Cloud와 비교  : 
 [https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison](https://cloud.google.com/free/docs/aws-azure-gcp-service-comparison){:target="_blank"} 
+
+
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://lifeoncloud-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
