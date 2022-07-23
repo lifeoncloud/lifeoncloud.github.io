@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 comments: true
 
-date: 2022-07-23
+date: 2022-05-15
 last_modified_at: 2022-07-23
 ---
 ## 들어가며
@@ -21,11 +21,11 @@ last_modified_at: 2022-07-23
 이 포스팅을 쓰게 된 계기 : [고민) AWS 해킹 당해서 사용료 3억이 넘게 나왔습니다. ](https://www.clien.net/service/board/park/17225662){:target="_blank"}
 <br>
 <br>
-위의 해킹 사건이 내게 남일이 아닌 이유는, 당장 나도 취준생 시절 국비학원에서 지원받은 AWS계정을 <span style="color: red">해킹</span>당했었고, 빌링그래프로 63빌딩을 세웠었기 때문이다. 
+위의 해킹 사건이 내게 남일이 아닌 이유는, 당장 나도 취준생 시절 국비학원에서 지원받은 AWS계정을 해킹 당했었고, 빌링그래프로 63빌딩을 세웠었기 때문이다. 
 
 ![빌링그래프로 63빌딩 세운 현장](/assets/images/gcp/201203-billing-support-0-63building.png)
 ~~63빌딩~~ <br>
-주말에 접속을 안 했었는데, 월요일에 팀원이 급하게 알려줘서 보니 **생전 처음 보는 사양의 ec2가 20개** 돌고있었다.
+주말에 접속을 안 했었는데, 월요일에 팀원이 급하게 알려줘서 보니 <span style="color: red">생전 처음 보는 사양의 ec2가 20개</span> 돌고있었다.
 <br><br>
 나는 부끄럽지만 위의 63빌딩 짤을 커뮤니티 이곳 저곳에 꾸준히 올리고 있는데, 그 이유는 한사람이라도 이 짤을 보고 경각심을 가지길 바래서이다.<br>
 그런 의미에서, 사용자가 보안 조치할 수 있는 부분에 대해 정리해본다.
@@ -36,22 +36,17 @@ last_modified_at: 2022-07-23
 ## 1. MFA 설정하자.
 
 !["MFA! MFA 설정해놔!" 라고 외치는 인터스텔라 패러디 짤](/assets/images/gcp/201203-billing-support-mfa-400.gif) <br>
-사실 위와 같은 해킹은 Google OTP, Microsoft Authenticator 앱으로 MFA설정만 해도 상당 부분 막을 수 있다.
+사실 위와 같은 해킹은 [Google OTP](https://apps.apple.com/kr/app/google-authenticator/id388497605){:target="_blank"}, [Microsoft Authenticator](https://apps.apple.com/us/app/microsoft-authenticator/id983156458){:target="_blank"} 앱으로 MFA설정만 해도 상당 부분 막을 수 있다.
 
 **MFA는 필수다. 꼭 설정해두자.**
 
 나는 NCP, GCP, AWS 같은 클라우드는 물론 중요 계정은 모두 MFA를 설정해두었다<br> 
-NCP의 경우 NCP 홈페이지 > 마이페이지 > 계정 관리 > 보안 설정 에서 아래와 같이 MFA를 설정할 수 있다. <br>
-[https://www.ncloud.com/mypage/manage/security ](https://www.ncloud.com/mypage/manage/security ){:target="_blank"}   
+NCP의 경우 [NCP 홈페이지 > 마이페이지 > 계정 관리 > 보안 설정](https://www.ncloud.com/mypage/manage/security){:target="_blank"} 에서 아래와 같이 MFA를 설정할 수 있다. <br>
+
 ![NCP에서 2차 인증 설정하는 곳](/assets/images/study/220515-cloud-security-mfa-configuraiton-in-ncp.png)
 
 
-
-아래 캡쳐는 내 Google OTP 캡쳐다. 캡쳐에 있는 것보다 훨씬 많은 계정을 MFA 설정해두었다. <br>
-<img src="/assets/images/study/220515-cloud-security-mfa-list.jpg" width="300px" title="google otp" alt="google otp">
-<br>
-
-솔직히 난 진짜 어지간한 귀차니스트인데, 위에 63빌딩을 목도한 이후로 내내 무서움이 귀찮음을 이기고 있다😇  ~~금융 치료~~
+솔직히 난 진짜 어지간한 귀차니스트인데.. 위에 63빌딩을 목도한 이후로 내내 무서움이 귀찮음을 이기고 있다😇  ~~금융 치료~~
 
 <br>
 <br>
@@ -113,6 +108,8 @@ AWS의 역할 전환 부분만 더 자세히 설명하면 다음과 같다.
 
 마지막으로 내 경험담이 담긴(..) 인터스텔라 짤을 만들었다.<br>
 일부러 자폭개그를 섞은만큼, 많이 알려져서 해킹 피해를 줄이는데 도움이 되었으면 좋겠다.
+
+<br><br><br>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
