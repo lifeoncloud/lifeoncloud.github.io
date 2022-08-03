@@ -197,8 +197,6 @@ Meet을 처음 사용해보시는 분들, 그리고 Meet을 기존에 사용하�
 <br>
 <br>
 
-<댓글 삽입>
-
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
